@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\code\\Billups\\RPSLS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20769697-DA3C-4A4B-9211-39DE0F9B0D9E}|test\\RPSLS.IntegrationTests\\RPSLS.IntegrationTests.csproj|d:\\projects\\code\\billups\\rpsls\\test\\rpsls.integrationtests\\roundtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20769697-DA3C-4A4B-9211-39DE0F9B0D9E}|test\\RPSLS.IntegrationTests\\RPSLS.IntegrationTests.csproj|solutionrelative:test\\rpsls.integrationtests\\roundtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50842A7E-BAFE-4DDB-88DF-EE09BF3860DC}|src\\RPSLS.Application\\RPSLS.Application.csproj|d:\\projects\\code\\billups\\rpsls\\src\\rpsls.application\\members\\scoreboard\\recent\\getmostrecentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50842A7E-BAFE-4DDB-88DF-EE09BF3860DC}|src\\RPSLS.Application\\RPSLS.Application.csproj|solutionrelative:src\\rpsls.application\\members\\scoreboard\\recent\\getmostrecentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50842A7E-BAFE-4DDB-88DF-EE09BF3860DC}|src\\RPSLS.Application\\RPSLS.Application.csproj|d:\\projects\\code\\billups\\rpsls\\src\\rpsls.application\\members\\scoreboard\\recent\\getmostrecentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50842A7E-BAFE-4DDB-88DF-EE09BF3860DC}|src\\RPSLS.Application\\RPSLS.Application.csproj|solutionrelative:src\\rpsls.application\\members\\scoreboard\\recent\\getmostrecentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20769697-DA3C-4A4B-9211-39DE0F9B0D9E}|test\\RPSLS.IntegrationTests\\RPSLS.IntegrationTests.csproj|d:\\projects\\code\\billups\\rpsls\\test\\rpsls.integrationtests\\integrationtestswebappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20769697-DA3C-4A4B-9211-39DE0F9B0D9E}|test\\RPSLS.IntegrationTests\\RPSLS.IntegrationTests.csproj|solutionrelative:test\\rpsls.integrationtests\\integrationtestswebappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66F1453-66C7-4077-A8A4-57D38CE8BD2C}|src\\RPSLS.Api\\RPSLS.Api.csproj|d:\\projects\\code\\billups\\rpsls\\src\\rpsls.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66F1453-66C7-4077-A8A4-57D38CE8BD2C}|src\\RPSLS.Api\\RPSLS.Api.csproj|solutionrelative:src\\rpsls.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66F1453-66C7-4077-A8A4-57D38CE8BD2C}|src\\RPSLS.Api\\RPSLS.Api.csproj|d:\\projects\\code\\billups\\rpsls\\src\\rpsls.api\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66F1453-66C7-4077-A8A4-57D38CE8BD2C}|src\\RPSLS.Api\\RPSLS.Api.csproj|solutionrelative:src\\rpsls.api\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20769697-DA3C-4A4B-9211-39DE0F9B0D9E}|test\\RPSLS.IntegrationTests\\RPSLS.IntegrationTests.csproj|d:\\projects\\code\\billups\\rpsls\\test\\rpsls.integrationtests\\baseintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20769697-DA3C-4A4B-9211-39DE0F9B0D9E}|test\\RPSLS.IntegrationTests\\RPSLS.IntegrationTests.csproj|solutionrelative:test\\rpsls.integrationtests\\baseintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BBA0CC0-7A60-479D-A981-D6088F1F721D}|docker-compose.dcproj|d:\\projects\\code\\billups\\rpsls\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2BBA0CC0-7A60-479D-A981-D6088F1F721D}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50842A7E-BAFE-4DDB-88DF-EE09BF3860DC}|src\\RPSLS.Application\\RPSLS.Application.csproj|d:\\projects\\code\\billups\\rpsls\\src\\rpsls.application\\members\\play\\playgameroundcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50842A7E-BAFE-4DDB-88DF-EE09BF3860DC}|src\\RPSLS.Application\\RPSLS.Application.csproj|solutionrelative:src\\rpsls.application\\members\\play\\playgameroundcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMostRecentQueryHandler.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQueryHandler.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQueryHandler.cs",
+              "RelativeToolTip": "src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQueryHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:24:09.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetMostRecentQuery.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQuery.cs",
+              "RelativeDocumentMoniker": "src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQuery.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQuery.cs",
+              "RelativeToolTip": "src\\RPSLS.Application\\Members\\Scoreboard\\Recent\\GetMostRecentQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:24:06.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAFITAAAAAAAAAAApwGYTAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-02-18T20:19:30.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Api\\Class.cs",
+              "RelativeDocumentMoniker": "src\\RPSLS.Api\\Class.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Api\\Class.cs",
+              "RelativeToolTip": "src\\RPSLS.Api\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:15:45.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayGameRoundCommand.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Application\\Members\\Play\\PlayGameRoundCommand.cs",
+              "RelativeDocumentMoniker": "src\\RPSLS.Application\\Members\\Play\\PlayGameRoundCommand.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Application\\Members\\Play\\PlayGameRoundCommand.cs",
+              "RelativeToolTip": "src\\RPSLS.Application\\Members\\Play\\PlayGameRoundCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:51:46.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoundTests.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\test\\RPSLS.IntegrationTests\\RoundTests.cs",
+              "RelativeDocumentMoniker": "test\\RPSLS.IntegrationTests\\RoundTests.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\test\\RPSLS.IntegrationTests\\RoundTests.cs",
+              "RelativeToolTip": "test\\RPSLS.IntegrationTests\\RoundTests.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:43:07.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseIntegrationTest.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\test\\RPSLS.IntegrationTests\\BaseIntegrationTest.cs",
+              "RelativeDocumentMoniker": "test\\RPSLS.IntegrationTests\\BaseIntegrationTest.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\test\\RPSLS.IntegrationTests\\BaseIntegrationTest.cs",
+              "RelativeToolTip": "test\\RPSLS.IntegrationTests\\BaseIntegrationTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:38:07.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-02-18T19:34:49.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\RPSLS.Api\\Program.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\src\\RPSLS.Api\\Program.cs",
+              "RelativeToolTip": "src\\RPSLS.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:23:26.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegrationTestsWebAppFactory.cs",
+              "DocumentMoniker": "D:\\projects\\code\\Billups\\RPSLS\\test\\RPSLS.IntegrationTests\\IntegrationTestsWebAppFactory.cs",
+              "RelativeDocumentMoniker": "test\\RPSLS.IntegrationTests\\IntegrationTestsWebAppFactory.cs",
+              "ToolTip": "D:\\projects\\code\\Billups\\RPSLS\\test\\RPSLS.IntegrationTests\\IntegrationTestsWebAppFactory.cs",
+              "RelativeToolTip": "test\\RPSLS.IntegrationTests\\IntegrationTestsWebAppFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:21:29.251Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

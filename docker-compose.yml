@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  rpsls.api:
+    image: ${DOCKER_REGISTRY-}rpslsapi
+    container_name: rpsls.api
+    build:
+      context: .
+      dockerfile: src/RPSLS.Api/Dockerfile
+    ports:
+        - "5000:5000"
+        - "5001:5001"
+
+  rpsls.db:
+    image: postgres:latest
+    container_name: rpsls.db
+    environment:
+        - POSTGRES_DB=rpsls-db
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+    volumes:       
+        - ./.containers/database:/var/lib/postgresql/data
+    ports:
+        - 5432:5432
