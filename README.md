@@ -1,6 +1,6 @@
 This is the implementation of the famous Rock Paper Scissors Lizard Spock game. The game was actually invented by Sam Kass and Karen Bryla in 1995. It became popular in 2013 with The Big Bang Theory show.
 
-The implementation is done usiing Clean  Architecture Concepts 
+The implementation is done using Clean  Architecture Concepts 
 
 Features implemented:
 
