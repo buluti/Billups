@@ -22,6 +22,7 @@ Features implemented:
 
 Installation instructions
 - Get the repo
+- Check if docker-compose is set as Startup project. Set it if not.
 - Run the repo
 
   ports:
