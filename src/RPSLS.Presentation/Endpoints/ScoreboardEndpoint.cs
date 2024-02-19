@@ -12,7 +12,7 @@ public static class ScoreboardEndpoint
     public static void AddScoreboardModule(this IEndpointRouteBuilder app)
     {
         app.MapGet("/tenmostrecent", GetTenMostRecent);
-        app.MapGet("/reset", ResetScoreboard);
+        app.MapDelete("/reset", ResetScoreboard);
     }
 
     public static async Task<IResult> ResetScoreboard(ISender sender)
