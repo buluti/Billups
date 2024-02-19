@@ -23,8 +23,12 @@ The implementation is done using Clean  Architecture Concepts
 
 ## Installation instructions
 - Get the repo
-- Check if docker-compose is set as Startup project. Set it if not.
-- Run the repo
+- Check if docker-compose is set as Startup project. Set it if not.  
+- Run the project
+- If **postgre container** does not start and reports this error "...could not open directory "pg_notify" No such file or directory" do  these steps:
+	- delete the docker image,
+ 	- delete  ```.containers/database``` folder from your project location
+  	- start the project again
 
 - Ports:
     - http 5000
