@@ -42,18 +42,18 @@ Get Api health status.
 Result: application/json
 
 ```json
-    {
-    	"status": "Healthy",
-    	"totalDuration": "00:00:00.3625436",
-    	"entries": {
-    		"npgsql": {
-    			"data": {},
-    			"duration": "00:00:00.3083686",
-    			"status": "Healthy",
-    			"tags": []
-    		}
-    	}
-    }
+{
+	"status": "Healthy",
+	"totalDuration": "00:00:00.3625436",
+	"entries": {
+		"npgsql": {
+			"data": {},
+			"duration": "00:00:00.3083686",
+			"status": "Healthy",
+			"tags": []
+		}
+	}
+}
 ```    
 
 ### GameEndpoint
@@ -66,12 +66,12 @@ Get all the choices that are usable for the UI.
 Result: application/json
 
 ```json
-    [
-	    {
-		    “id": integer [1-5],
-		    "name": string [12] (rock, paper, scissors, lizard, spock)
-	    }
-    ]
+[
+    {
+	    “id": integer [1-5],
+	    "name": string [12] (rock, paper, scissors, lizard, spock)
+    }
+]
 ```
 
 #### Choice
@@ -82,10 +82,10 @@ Get a randomly generated choice.
 Result: application/json
 
 ```json
-    {
-	    "id": integer [1-5],
-	    "name" : string [12] (rock, paper, scissors, lizard, spock)
-    }
+{
+    "id": integer [1-5],
+    "name" : string [12] (rock, paper, scissors, lizard, spock)
+}
 ```
 
 #### Play
@@ -96,19 +96,19 @@ Play a round against a computer opponent.
 Request: application/json
 
 ```json
-    {
-    	“player”: choice_id
-    }
+{
+	“player”: choice_id
+}
 ```
 
 Result: application/json
   
 ```json
-        {
-	    "results": string [12] (win, lose, tie),
-	    “player”: choice_id,
-	    “computer”: choice_id
-    }
+{
+    "results": string [12] (win, lose, tie),
+    “player”: choice_id,
+    “computer”: choice_id
+}
 ```
 ### ScoreboardEndpoit
 
