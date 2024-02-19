@@ -31,7 +31,9 @@ The implementation is done using Clean  Architecture Concepts
     - https :5001
 
 ## There are 3 Endpoints:
+
 ### HealthEndpoint
+
 #### Health
 Get Api health status.
 
@@ -54,6 +56,7 @@ Get Api health status.
 ```    
 
 ### GameEndpoint
+
 #### Choices
 Get all the choices that are usable for the UI.
 
@@ -66,7 +69,8 @@ Get all the choices that are usable for the UI.
     "name": string [12] (rock, paper, scissors, lizard, spock)
     }
     ]
-```    
+```
+
 #### Choice
 Get a randomly generated choice.
 
@@ -78,6 +82,7 @@ Result: application/json
     "name" : string [12] (rock, paper, scissors, lizard, spock)
     }
 ```
+
 #### Play
 Play a round against a computer opponent.
 
@@ -91,7 +96,6 @@ Request: application/json
     }
 ```
 
-
 Result: application/json
   
 ```json
@@ -102,11 +106,11 @@ Result: application/json
     }
 ```
 ### ScoreboardEndpoit
+
 #### Tenmostrecent
 Ten Most Recent Results.
 
 ```GET /tenmostrecent```
-
 
 Result: application/json
 
@@ -118,11 +122,12 @@ Result: application/json
 		"computer": 4,
 		"time": "Sunday, 18 February 2024"
 	}
-]
-```
+]```
+
 #### Reset Scoreboard
 Delete all scoreboard entries.
 
 ```DELETE /reset```
 ```json
 Result:
+```
