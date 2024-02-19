@@ -29,3 +29,75 @@ Installation instructions
     - http 5000
     - https :5001
 
+There are 3 endpoints:
+**Health**
+Get Api health status
+GET: /health
+
+**GameEndpoint **
+  Result: application/json
+    {
+    	"status": "Healthy",
+    	"totalDuration": "00:00:00.3625436",
+    	"entries": {
+    		"npgsql": {
+    			"data": {},
+    			"duration": "00:00:00.3083686",
+    			"status": "Healthy",
+    			"tags": []
+    		}
+    	}
+    }
+    
+**Choices**
+Get all the choices that are usable for the UI.
+● GET: /choices
+  Result: application/json
+    [
+    {
+    “id": integer [1-5],
+    "name": string [12] (rock, paper, scissors, lizard, spock)
+    }
+    ]
+    
+**Choice**
+Get a randomly generated choice
+● GET: /choice
+  Result: application/json
+    {
+    "id": integer [1-5],
+    "name" : string [12] (rock, paper, scissors, lizard, spock)
+    }
+
+**Play**
+Play a round against a computer opponent
+● POST: /play
+  Request: application/json
+    {
+    “player”: choice_id
+    }
+  Result: application/json
+    {
+    "results": string [12] (win, lose, tie),
+    “player”: choice_id,
+    “computer”: choice_id
+    }
+
+**ScoreboardEndpoit**
+
+**Ten Most Recent Results**
+GET /tenmostrecent
+/tenmostrecent
+Result: application/json
+[
+	{
+		"result": "loose",
+		"player": 5,
+		"computer": 4,
+		"time": "Sunday, 18 February 2024"
+	}
+]
+
+**Reset Scoreboard**
+Delete all scoreboard entries
+DELETE /reset
