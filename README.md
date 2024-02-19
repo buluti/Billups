@@ -37,9 +37,8 @@ Get Api health status.
 
 ```GET: /health```
 
-Result: application/json
-
 ```json
+  Result: application/json
     {
     	"status": "Healthy",
     	"totalDuration": "00:00:00.3625436",
@@ -59,10 +58,8 @@ Result: application/json
 Get all the choices that are usable for the UI.
 
 ```GET: /choices```
-
-Result: application/json
-
 ```json
+  Result: application/json
     [
     {
     “id": integer [1-5],
@@ -74,10 +71,8 @@ Result: application/json
 Get a randomly generated choice.
 
 ```GET: /choice```
-
+  ```json
 Result: application/json
-
-```json
     {
     "id": integer [1-5],
     "name" : string [12] (rock, paper, scissors, lizard, spock)
@@ -88,13 +83,18 @@ Play a round against a computer opponent.
 
 ```POST: /play```
 
-Result: application/json
+Request: application/json
 
 ```json
     {
     “player”: choice_id
     }
-  Result: application/json
+```
+
+
+Result: application/json
+  
+```json
     {
     "results": string [12] (win, lose, tie),
     “player”: choice_id,
@@ -106,6 +106,7 @@ Result: application/json
 Ten Most Recent Results.
 
 ```GET /tenmostrecent```
+
 
 Result: application/json
 
@@ -123,6 +124,5 @@ Result: application/json
 Delete all scoreboard entries.
 
 ```DELETE /reset```
-
 ```json
 Result:
