@@ -127,7 +127,8 @@ Result: application/json
 		"computer": 4,
 		"time": "Sunday, 18 February 2024"
 	}
-]```
+]
+```
 
 #### Reset Scoreboard
 Delete all scoreboard entries.
