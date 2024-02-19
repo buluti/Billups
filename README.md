@@ -67,10 +67,10 @@ Result: application/json
 
 ```json
     [
-    {
-    “id": integer [1-5],
-    "name": string [12] (rock, paper, scissors, lizard, spock)
-    }
+	    {
+		    “id": integer [1-5],
+		    "name": string [12] (rock, paper, scissors, lizard, spock)
+	    }
     ]
 ```
 
@@ -83,8 +83,8 @@ Result: application/json
 
 ```json
     {
-    "id": integer [1-5],
-    "name" : string [12] (rock, paper, scissors, lizard, spock)
+	    "id": integer [1-5],
+	    "name" : string [12] (rock, paper, scissors, lizard, spock)
     }
 ```
 
@@ -97,7 +97,7 @@ Request: application/json
 
 ```json
     {
-    “player”: choice_id
+    	“player”: choice_id
     }
 ```
 
@@ -105,9 +105,9 @@ Result: application/json
   
 ```json
     {
-    "results": string [12] (win, lose, tie),
-    “player”: choice_id,
-    “computer”: choice_id
+	    "results": string [12] (win, lose, tie),
+	    “player”: choice_id,
+	    “computer”: choice_id
     }
 ```
 ### ScoreboardEndpoit
