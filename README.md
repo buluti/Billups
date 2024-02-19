@@ -104,7 +104,7 @@ Request: application/json
 Result: application/json
   
 ```json
-    {
+        {
 	    "results": string [12] (win, lose, tie),
 	    “player”: choice_id,
 	    “computer”: choice_id
