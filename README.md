@@ -58,8 +58,9 @@ Get Api health status.
 Get all the choices that are usable for the UI.
 
 ```GET: /choices```
+Result: application/json
 ```json
-  Result: application/json
+  
     [
     {
     “id": integer [1-5],
@@ -71,8 +72,8 @@ Get all the choices that are usable for the UI.
 Get a randomly generated choice.
 
 ```GET: /choice```
-  ```json
 Result: application/json
+  ```json
     {
     "id": integer [1-5],
     "name" : string [12] (rock, paper, scissors, lizard, spock)
