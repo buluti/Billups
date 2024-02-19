@@ -1,8 +1,9 @@
+# Billups RPSLS Game 
 This is the implementation of the famous Rock Paper Scissors Lizard Spock game. The game was actually invented by Sam Kass and Karen Bryla in 1995. It became popular in 2013 with The Big Bang Theory show.
 
 The implementation is done using Clean  Architecture Concepts 
 
-Features implemented:
+## Features implemented:
 
 - Health
 - Swagger
@@ -20,21 +21,22 @@ Features implemented:
 - Integration Tests using Testcontainers library
 
 
-Installation instructions
+## Installation instructions
 - Get the repo
 - Check if docker-compose is set as Startup project. Set it if not.
 - Run the repo
 
-  ports:
+- Ports:
     - http 5000
     - https :5001
 
-There are 3 endpoints:
-**Health**
+## There are 3 Endpoints:
+### HealthEndpoint
+#### Health
 Get Api health status
-GET: /health
+```GET: /health```
 
-**GameEndpoint **
+```json
   Result: application/json
     {
     	"status": "Healthy",
@@ -48,10 +50,13 @@ GET: /health
     		}
     	}
     }
-    
-**Choices**
+```    
+
+### GameEndpoint
+#### Choices
 Get all the choices that are usable for the UI.
-● GET: /choices
+```GET: /choices```
+```json
   Result: application/json
     [
     {
@@ -59,19 +64,21 @@ Get all the choices that are usable for the UI.
     "name": string [12] (rock, paper, scissors, lizard, spock)
     }
     ]
-    
-**Choice**
+```    
+#### Choice
 Get a randomly generated choice
-● GET: /choice
-  Result: application/json
+```GET: /choice```
+  ```json
+Result: application/json
     {
     "id": integer [1-5],
     "name" : string [12] (rock, paper, scissors, lizard, spock)
     }
-
-**Play**
+```
+#### Play
 Play a round against a computer opponent
-● POST: /play
+```POST: /play```
+```json
   Request: application/json
     {
     “player”: choice_id
@@ -82,12 +89,12 @@ Play a round against a computer opponent
     “player”: choice_id,
     “computer”: choice_id
     }
-
-**ScoreboardEndpoit**
-
-**Ten Most Recent Results**
-GET /tenmostrecent
-/tenmostrecent
+```
+### ScoreboardEndpoit
+#### Tenmostrecent
+Ten Most Recent Results**
+```GET /tenmostrecent```
+```json
 Result: application/json
 [
 	{
@@ -97,7 +104,9 @@ Result: application/json
 		"time": "Sunday, 18 February 2024"
 	}
 ]
-
-**Reset Scoreboard**
+```
+#### Reset Scoreboard
 Delete all scoreboard entries
-DELETE /reset
+```DELETE /reset```
+```json
+Result:
