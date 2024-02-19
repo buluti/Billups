@@ -33,7 +33,8 @@ The implementation is done using Clean  Architecture Concepts
 ## There are 3 Endpoints:
 ### HealthEndpoint
 #### Health
-Get Api health status
+Get Api health status.
+
 ```GET: /health```
 
 ```json
@@ -55,6 +56,7 @@ Get Api health status
 ### GameEndpoint
 #### Choices
 Get all the choices that are usable for the UI.
+
 ```GET: /choices```
 ```json
   Result: application/json
@@ -66,7 +68,8 @@ Get all the choices that are usable for the UI.
     ]
 ```    
 #### Choice
-Get a randomly generated choice
+Get a randomly generated choice.
+
 ```GET: /choice```
   ```json
 Result: application/json
@@ -76,7 +79,8 @@ Result: application/json
     }
 ```
 #### Play
-Play a round against a computer opponent
+Play a round against a computer opponent.
+
 ```POST: /play```
 ```json
   Request: application/json
@@ -92,7 +96,8 @@ Play a round against a computer opponent
 ```
 ### ScoreboardEndpoit
 #### Tenmostrecent
-Ten Most Recent Results**
+Ten Most Recent Results.
+
 ```GET /tenmostrecent```
 ```json
 Result: application/json
@@ -106,7 +111,8 @@ Result: application/json
 ]
 ```
 #### Reset Scoreboard
-Delete all scoreboard entries
+Delete all scoreboard entries.
+
 ```DELETE /reset```
 ```json
 Result:
